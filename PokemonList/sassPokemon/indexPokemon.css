@@ -1,0 +1,102 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  width: 100%; }
+
+.header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: #ffca05; }
+
+.logoPokemon {
+  max-width: 100%;
+  width: 250px; }
+
+.nav {
+  display: none; }
+
+.nav-small {
+  display: none; }
+
+.nav-small-show {
+  display: block; }
+
+.nav-small-link {
+  text-decoration: none; }
+
+.nav-small-item {
+  list-style: none; }
+
+@media (min-width: 768px) {
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    list-style: none;
+    width: 70%; } }
+.titleContent {
+  text-align: center;
+  font-size: 45px;
+  font-family: "Luckiest Guy", cursive;
+  color: #2257bd; }
+
+.container {
+  display: block;
+  width: 100%;
+  margin: auto;
+  padding-right: 10%;
+  padding-left: 10%; }
+
+.cards-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  border: solid 3px #2257bd;
+  border-radius: 100px 100px 100px 100px; }
+
+.cards-container img {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  border: dotted 2px white;
+  border-radius: 300px 300px 300px 300px; }
+
+.cards-container p {
+  font-size: 1.25em;
+  font-weight: 500;
+  text-align: center;
+  padding: 2px; }
+
+.btn-menu {
+  border: none;
+  background-color: #ffca05;
+  padding: 8px; }
+
+.btn-menu-icon {
+  width: 50%; }
+
+.glyphicon-menu-hamburger {
+  color: #2257bd;
+  font-size: 50px; }
+
+@media (min-width: 768px) {
+  .btn-menu {
+    display: none; } }
+
+/*# sourceMappingURL=indexPokemon.css.map */

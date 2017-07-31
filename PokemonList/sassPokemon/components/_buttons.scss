@@ -1,0 +1,20 @@
+.btn-menu{
+  border: none;
+  background-color: $first-color;
+  padding: 8px;
+
+}
+.btn-menu-icon{
+  width: 50%;
+}
+
+.glyphicon-menu-hamburger{
+  color: $second-color;
+  font-size: 50px;
+}
+
+@media (min-width: $min-tablet-size) {
+  .btn-menu{
+    display: none;
+  }
+}
